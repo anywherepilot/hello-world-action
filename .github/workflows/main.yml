@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: anywherepilot/hello-world@v1
+        uses: anywherepilot/hello-world-action@v1
         with:
           whom-to-greet: 'Mona the Octocat'
       - name: Get the output time
